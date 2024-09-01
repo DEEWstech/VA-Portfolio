@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+  --White: hsl(180, 0%, 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+ 
+}
+nav{
+  background-color: var(--LightGrayishBlue);
+}
+
+.nav-link{
+  color: var(--VeryDarkBlue);
+  font-weight: 500;
+}
+.nav-link:hover {
+  background-color: var(--LightGray);
+}
+.bg-image h1 {
+  padding-top: 40px;
+  font-size: 7.5rem;
+  color: var(--White);
+  opacity: 0.9;
+}
+
+.bg-image {
+  background-image: url(./design/working\ on\ laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 3rem 0;
+  padding: 7rem 0;
+
+}
+.header h2 {
+  color: var(--ModerateCyan);
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.hover-button:hover{
+  background-color: var(--ModerateCyan);
+
+}
+.profile-container{
+  padding: 0.7rem 5rem;
+  margin: 3.2rem;
+}
+
+.profile-image {
+  margin-right: 6rem;
+  margin-bottom: 2.5rem;
+}
+.profile-image img{
+  width: 23rem;
+  height: 26rem;
+  margin: 20px;
+}
+
+ .about-style{
+  margin-top: 80px;
+ }
+.hero{
+  font-size: 3rem;
+}
+.profile-style{
+  font-size: 2rem;
+}
+.histyle {
+  font-size: 1.2rem;
+}
+.eyestyle{
+  font-size: 1.5rem;
+}
+.sec-3 {
+  background-color: var(--LightGrayishBlue);
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.sec-card{
+  margin: 2rem;
+}
+.sec-3 h4{
+  font-size: 3rem;
+}
+.edu-style{
+  margin-right: 6rem;
+}
+.career-section {
+  background-color: var(--DesaturatedBlue);
+  color: var(--White);
+  padding: 0px 20px;
+}
+.career-section h5{
+  font-size: 3rem;
+ 
+}
+.career-media{
+  column-gap: 20px;
+  padding: 20px 0px;
+}
+.col {
+  column-count: 3;
+  column-gap: 40px;
+}
+.connect{
+  margin-right: 10px; 
+  padding: 6px 34px;
+  font-weight: 500;
+}
+footer {
+  background-color: var(--VeryDarkBlue);
+  color: var(--White);
+  padding: 20px 0px;
+}
+footer h6{
+  font-size: 2rem;
+}
+.linkedin-style:hover{
+  text-decoration: underline;
+}
+
+
+/*this is contact page*/
+form{
+  text-align: left;
+ 
+}
+#contact-button{
+  padding: 6px 40px;
+  font-size: 1.3rem;
+}
+
+form input{
+  padding-right: 270px;
+}
+form textarea{
+  padding-right: 300px;
+}
+.contact-card {
+  background-color: var(--LightGrayishBlue);
+}
+.contact-card h3{
+font-size: 3rem;
+}
+
+.hover-text:hover {
+  text-decoration: underline;
+  color: var(--VeryDarkBlue);
+}
+.hover-text img{
+  background-color: var(--VeryDarkBlue);
+  
+}
+
+/*this is portfolio page*/
+
+h1{
+  margin-top: 100px;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.portfolio-slide {
+  background-color: var(--VeryDarkBlue);
+padding-bottom: 100px;
+margin: 50px;
+}
+.carousel-inner{
+  padding-left: 350px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  
+}
+.carousel p{
+  font-size: 3rem;
+}
+.carousel-indicators img{
+  height: 70px;
+ width: 70px;
+
+ display: block;
+}
+.carousel-indicators button{
+  width: max-content!important;
+}
+.carousel-indicators{
+  position: unset;
+}
+.carousel-indicators button.active img{
+  border: 2px solid var(--ModerateCyan)
+}
+
+
+.work-card{
+  background-color: var(--LightGray);
+  padding: 30px;
+
+}
+
+figcaption{
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 30px;
+  
+}
+.skills-card{
+  background-color: var(--LightGrayishBlue);
+  
+}
+.skillsp{
+  margin: 0px 30px;
+  padding: 30px 0px;
+}
+.none-list{
+  list-style: none;
+}
+.service{
+  background-color: var(--ModerateCyan);
+  padding: 40px 10px;
+}
+hr{
+  display: none;
+}
+.toolkit{
+  background-color: var(--LightGrayishBlue);
+}
+.toolkit h2{
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.testimonial-card span{
+  font-size: 0.9rem;
+}
+.testimonia-card{
+ 
+  margin: 0pz 5px;
+}
+.testi-monial{
+  font-size: 3rem;
+}
+.testimonialfounder {
+  font-size: 1rem;
+  margin-top: 50px;
+  
+}
+.card-body {
+  margin: 0px 20px;
+}
+.image-box{
+  margin-bottom: 0px;
+  
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+      
+        .nav-link{
+          color: var(--VeryDarkBlue);
+          font-weight: 500;
+        }
+        .nav-link:hover {
+          background-color: var(--LightGray);
+          color: var(--White);
+        }
+        
+         .bg-image{
+          margin-top: 4rem;
+          height: 2rem;
+          opacity: 0.7;
+         }
+        .bg-image h1{
+          padding-top: 0rem;
+          color: var(--White);
+          font-weight: 500; 
+          font-size: 2.5rem;
+          margin-top: 0.5rem;
+          
+        }    
+        .header h2 {
+          background-color: var(--VeryDarkBlue);
+          color: var(--White);
+          font-weight: 500;
+          font-size: 2rem;
+          margin-top: 0px;
+        
+        }
+        .profile-container{
+         border-radius: 70px;
+         padding: 10px;
+         margin: 22px;
+        }
+        .profile-image img{
+          width: 13rem;
+          height: 12rem;
+          display: flex;
+          margin-left: 1.5rem;
+          margin-top: 0px;
+        
+        }
+        .profile-query{
+          display: flex;
+          flex-direction: column;
+          height: 530px;
+          margin: 15px;
+         
+        }
+        
+        .pattern-button{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+        }
+        .hover-button:hover{
+          background-color: var(--ModerateCyan);
+        }
+
+        .about-style{
+          width: 17rem;
+          margin-top: 0px;
+        }
+        .hero{
+          font-size: 2rem;
+        }
+        .profile-style{
+          font-size: 1rem;
+        }
+        .histyle {
+          font-size: 0.8rem;
+        }
+        .eyestyle{
+          font-size: 0.9rem;
+        }
+        
+        .sec-card{
+          margin: 1.5rem;
+        }
+        .sec-3 h4{
+          font-size: 2rem;
+          font-weight: 500;
+        }
+        .edu-style {
+          color: var(--ModerateCyan);
+          width: 19rem;
+          font-size: 1rem;
+          margin-top: 10px;
+        }
+        .career-media{
+          font-size: 0.8rem;
+          font-weight: 500;
+          display: flex;
+          flex-direction: column;
+        
+        }
+        
+        .career-section h5{
+          font-weight: 500;
+          font-size: 2rem;
+        }
+
+        footer{
+          display: flex;
+          flex-direction: column;
+        }
+        .footer-style {
+         display: flex;
+          flex-direction: column;
+          justify-content: center;
+         padding-left: 20px;
+        }
+        footer h6{
+        font-weight: 500;
+        font-size: 1rem;
+        padding-right: 60px;
+        }
+        .connect{
+          margin-right: 120px; 
+          padding: 6px 30px;
+          font-weight: 500;
+        }
+        /*portfolio page*/
+        h1{
+          margin-top: 100px;
+          font-size: 1.5rem;
+        }
+        .portfolio-slide{
+          padding-bottom: 50px;
+          margin: 20px 30px;
+        }
+        .portfolio-media {
+          background-color: var(--VeryDarkBlue);
+          margin-top: 200px;
+        
+        margin: 150px;
+        }
+        
+        .carousel-inner{
+          padding-left: 6.5rem;
+          padding-top: 0px;
+          padding-bottom: 20px;
+          
+        }
+        .carousel P{
+          font-size: 1.2rem;
+          font-weight: 300;
+        }
+        .carousel-item img {
+          height: 90px;
+          width: 120px;
+        }
+        .carousel-indicators img{
+         width: 20px;
+         height: 18px;
+         display: block;
+        }
+        .carousel-indicators button{
+          width: max-content!important;
+        }
+        .carousel-indicators{
+          position: unset;
+        }
+        .carousel-indicators button.active img{
+          border: 2px solid var(--ModerateCyan)
+        }
+        
+        .work-card{
+          background-color: var(--LightGray);
+          display: flex;
+          flex-direction: column;
+        }
+        .image-card{
+          margin: 5px 1px;
+        }
+        
+        figcaption{
+          font-size: 1.2rem;
+          font-weight: 300;
+          padding-bottom: 30px;
+          
+        }
+        .work-card img{
+          width: 20rem;
+          height: 200px;
+          margin-left: 0px;
+        }
+        .firstrow-image{
+          display: flex;
+          flex-direction: column;
+         
+         
+        }
+        .secondrow-image{
+          display: flex;
+          flex-direction: column;
+         
+        }
+        
+        .skillsp{
+          font-size: 0.8rem;
+          width: 365px;
+          margin: 0px 25px;
+        }
+        
+        .skills-card p{
+          font-size: 1rem;
+          text-align: left;
+          padding-right: 30px;
+          margin-bottom: 50px;
+          
+        }
+        .techskill{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+        }
+        .service{
+          background-color: var(--ModerateCyan);
+          display: flex;
+          flex-direction: column;
+         
+          
+        }
+        .service::before{
+          content: "SERVICE I OFFER:";
+          flex-direction: column-reverse;
+          text-align: center;
+          font-size: 28px;
+          font-weight: 800;
+          padding-top: 10px;
+        }
+        .serviceoffer{
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 20px;
+          padding-left: 5px;
+        }
+        .service img{
+          width: 200px;
+          height: 150px;
+          margin: 28%;
+        }
+        hr{
+        border: 2px solid white;
+        margin-left: 80px;
+        width: 150px;
+        display: block;
+        }
+        .service h1{
+          display: none;
+        }
+        .service h2{
+          width: 300px;
+          font-weight: 500;
+          text-align: center;
+        }
+        
+        .service p{
+         text-align: center;
+         width: 295px;
+        }
+        .toolkit{
+          background-color: var(--LightGrayishBlue);
+        
+        }
+        .toolkit br{
+          display: none;
+        }
+         .toolkit h2{
+          font-weight: 800;
+          font-size: 2rem;
+          padding-top: 40px;
+         }
+        .testimonial{
+          display: flex;
+          flex-direction: column;
+        }
+        .testi-monial{
+          font-weight: 800;
+          font-size: 2rem;
+        }
+        
+        .card-body{
+        font-size: medium;
+        }
+        .image-box{
+          margin-top: 5px;
+        }
+        .image-box h1{
+          margin-top: 40px;
+        }
+        /*This is contact page*/
+        .contact-card {
+         justify-content: center;
+         align-items: center;
+        
+        }
+        .contact-card h3{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--ModerateCyan);
+        text-align: left;
+        }
+        .contact-card p{
+          text-align: left;
+          font-size: 0.9rem;
+          
+        }
+        form{
+          text-align: left;
+          color: var(--ModerateCyan);
+        }
+        form input{
+          padding-right: 80px;
+        }
+        form textarea{
+          padding-right: 115px;
+        }
+      }
