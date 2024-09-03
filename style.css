@@ -331,7 +331,10 @@ hr{
           margin: 15px;
          
         }
-        
+        .double-button{
+          display: flex;
+          justify-content: space-between;
+        }
         .pattern-button{
           display: flex;
           justify-content: center;
